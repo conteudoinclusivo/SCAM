@@ -33,7 +33,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
         </button>
       </div>
 
-      <div className="flex-1 px-4 pb-4">
+      <div className="flex-1 px-4 pb-20">
         {/* Action Cards */}
         <div className="space-y-4 mb-8">
           {/* Receber Amostra Card */}
@@ -135,7 +135,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
       </div>
 
       {/* Bottom Navigation */}
-      <div className="bg-white border-t border-[#f2ede8] px-4 py-3">
+      <div className="bg-white border-t border-[#f2ede8] px-4 py-3 fixed bottom-0 left-0 right-0">
         <div className="flex justify-between items-center">
           <button 
             onClick={() => onNavigate('dashboard')}
